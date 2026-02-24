@@ -1,0 +1,19 @@
+# Ignore large directories
+node_modules/
+venv/
+.next/
+.git/
+
+# Ignore large binary/data files to save tokens
+*.pth
+*.pt
+*.h5
+*.csv
+*.log
+*.zip
+*.tar.gz
+
+# CARLA / Build artifacts
+dist/
+build/
+.ipynb_checkpoints/
